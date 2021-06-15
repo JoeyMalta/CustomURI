@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CustomURI",
-			"Path": "C:\\Users\\Ibrahim Baig\\Documents\\GitHub\\CustomURI\\CustomURI\\Source\\CustomURI.Target.cs",
+			"Path": "D:\\GitKitchenVR\\CustomURI\\CustomURI\\Source\\CustomURI.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CustomURIEditor",
-			"Path": "C:\\Users\\Ibrahim Baig\\Documents\\GitHub\\CustomURI\\CustomURI\\Source\\CustomURIEditor.Target.cs",
+			"Path": "D:\\GitKitchenVR\\CustomURI\\CustomURI\\Source\\CustomURIEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
