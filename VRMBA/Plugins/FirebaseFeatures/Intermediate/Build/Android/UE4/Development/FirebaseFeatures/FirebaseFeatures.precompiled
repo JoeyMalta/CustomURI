@@ -1,0 +1,20 @@
+{
+	"OutputFiles": [
+		"Module.FirebaseFeatures.cppa7.o",
+		"Module.FirebaseFeatures.cppa8.o",
+		"Module.FirebaseFeatures.gen.1_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.2_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.3_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.4_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.5_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.6_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.7_of_7.cppa7.o",
+		"Module.FirebaseFeatures.gen.1_of_7.cppa8.o",
+		"Module.FirebaseFeatures.gen.2_of_7.cppa8.o",
+		"Module.FirebaseFeatures.gen.3_of_7.cppa8.o",
+		"Module.FirebaseFeatures.gen.4_of_7.cppa8.o",
+		"Module.FirebaseFeatures.gen.5_of_7.cppa8.o",
+		"Module.FirebaseFeatures.gen.6_of_7.cppa8.o",
+		"Module.FirebaseFeatures.gen.7_of_7.cppa8.o"
+	]
+}

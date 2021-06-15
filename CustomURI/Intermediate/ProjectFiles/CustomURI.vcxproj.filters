@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CustomURI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1C92B739-58A9-4CAA-80DC-3914A0BE8B24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CustomURI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CustomURIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C21584DD-CD64-490E-9D12-E9D558DD7786}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{9F35EA20-5E93-4F84-94A7-99FA930FC76B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin">
+      <UniqueIdentifier>{C4512FE2-9F1C-4856-9A35-1C07CB3646E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin\Source">
+      <UniqueIdentifier>{349060CC-C4EC-43D1-B876-6725D603422B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin">
+      <UniqueIdentifier>{BBBF8694-8415-4908-955F-8EFF7CEEE4CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestPlugin\Source\TestPlugin\TestPlugin.Build.cs">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Private">
+      <UniqueIdentifier>{4D56DAAD-9A7C-40D7-9E67-175CCDFFA224}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Private\TestPlugin.cpp">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Public">
+      <UniqueIdentifier>{255DC131-CF39-48AF-BBED-488C50C07D4D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\TestPlugin\TestPlugin.uplugin">
+      <Filter>Plugins\TestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TestPlugin\Resources">
+      <UniqueIdentifier>{979F1C98-13EC-4005-82DB-008823F47A9F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestPlugin\Resources\Icon128.png">
+      <Filter>Plugins\TestPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Source\CustomURI">
+      <UniqueIdentifier>{65E6FEF7-90FF-4775-9E4B-2F06DB4B6E01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CustomURI\CustomURI.Build.cs">
+      <Filter>Source\CustomURI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CustomURI\CustomURI.cpp">
+      <Filter>Source\CustomURI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomURI\CustomURI.h">
+      <Filter>Source\CustomURI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CustomURI\MyClass.cpp">
+      <Filter>Source\CustomURI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CustomURI\MyClass.h">
+      <Filter>Source\CustomURI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

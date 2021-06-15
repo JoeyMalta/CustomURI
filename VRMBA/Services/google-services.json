@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "113781127159",
+    "project_id": "testauth2-4d194",
+    "storage_bucket": "testauth2-4d194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113781127159:android:cd7a1abcdffc8bb54560f2",
+        "android_client_info": {
+          "package_name": "com.vrmba.auth2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113781127159-hge1ltq55a4vilqahos2lan9jh8eitan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCesn_Z9IlWtz3udT1OKr9BgOyV2AB07-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113781127159-hge1ltq55a4vilqahos2lan9jh8eitan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

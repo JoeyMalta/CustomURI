@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VRMBA.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A8501057-6199-43CD-AC07-033CA7E1E424}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRMBA.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VRMBAEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{188EFCE8-79C4-4B3B-AC01-054992A4CB4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{2E5CCE98-7340-4B64-AD4D-B8B74546765D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FirebaseFeatures">
+      <UniqueIdentifier>{354F478E-85BA-46C3-954A-FD40A6711EB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FirebaseFeatures\Source">
+      <UniqueIdentifier>{5936AF5E-DD88-4607-8233-7E260631F989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures">
+      <UniqueIdentifier>{F7E6DA87-E3EA-41DA-B0B8-8B4D77AD31F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\FirebaseFeatures.Build.cs">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures</Filter>
+    </None>
+    <None Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\FirebaseSdk.android.upl.xml">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures</Filter>
+    </None>
+    <None Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\FirebaseSdk.ios.upl.xml">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures</Filter>
+    </None>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private">
+      <UniqueIdentifier>{8A35BCC6-54B2-4749-90CA-712380D999CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseFeatures.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob">
+      <UniqueIdentifier>{63F09176-F264-4554-812A-B6D202A45C46}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\AdMobHelper.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\AdMobHelper.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\AdMobLibrary.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\AdMobNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\AdMobNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\BannerView.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\InterstitialAd.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\RewardedVideo.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics">
+      <UniqueIdentifier>{DA7A5BE5-AE96-4251-AC96-837187616651}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics\FirebaseAnalyticsLibrary.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics\FirebaseAnalyticsNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics\FirebaseAnalyticsNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics\FirebaseAnalyticsProvider.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth">
+      <UniqueIdentifier>{902DAB7A-B17C-4AAE-90CD-B36213F39C2C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\Auth.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\AuthHelper.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\AuthHelper.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\AuthNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\AuthNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\Credential.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\CredentialNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\CredentialNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\User.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\UserNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\UserNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database">
+      <UniqueIdentifier>{BEC64934-D11A-496C-A201-1B2151D13945}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database\Database.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database\DatabaseNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database\DatabaseNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database\DatabaseReference.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks">
+      <UniqueIdentifier>{D26A7C70-2C89-4F2D-B7CA-15DDFC339141}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks\DynamicLinks.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks\FirebaseDynamicLinksNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks\FirebaseDynamicLinksNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk">
+      <UniqueIdentifier>{1BF629E6-B35F-45D1-B661-644965E45471}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk\FirebaseConfig.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk\FirebaseVariant.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore">
+      <UniqueIdentifier>{BB8118AB-5AC5-4326-8E62-0C7A41103AB7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\CollectionReference.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\DocumentReference.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\DocumentSnapshot.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\FieldPath.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\FieldValue.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\Firestore.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\FirestoreNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\FirestoreNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\Query.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions">
+      <UniqueIdentifier>{C9AA9F66-CC86-46AA-A226-0911BF8473BA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions\CallableReference.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions\FunctionsLibrary.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions\FunctionsNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions\FunctionsNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging">
+      <UniqueIdentifier>{9C0CF21D-8AA8-4EC6-814E-3409E837AC55}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging\MessagingLibrary.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging\MessagingNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging\MessagingNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig">
+      <UniqueIdentifier>{D243F92F-B573-46D1-9F83-8EA8C6B8EAED}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig\RemoteConfig.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig\RemoteConfigNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig\RemoteConfigNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage">
+      <UniqueIdentifier>{D51A915A-C11C-427D-88C4-439917D52C4C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage\Storage.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage\StorageNodes.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage\StorageNodes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage\StorageReference.cpp">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public">
+      <UniqueIdentifier>{9484584F-A89B-4AA8-8F4E-4F7CF34A6531}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseFeatures.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob">
+      <UniqueIdentifier>{95271A7B-B9AE-4524-AD7F-C30A7B19140F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob\AdMobLibrary.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob\AdMobTypes.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob\BannerView.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob\InterstitialAd.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob\RewardedVideo.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics">
+      <UniqueIdentifier>{0F627513-68F4-4FDE-9CF0-52220FFE25FD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics\FirebaseAnalyticsLibrary.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics\FirebaseAnalyticsProvider.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth">
+      <UniqueIdentifier>{5188FBD7-4939-430D-9C12-8BF8E3444098}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth\Auth.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth\Credential.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth\User.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database">
+      <UniqueIdentifier>{BC0F627D-015B-4A31-97ED-915536AF9E9F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database\Database.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database\DatabaseReference.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks">
+      <UniqueIdentifier>{78449CD6-9DA4-439B-B0DE-396ABDE50217}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks\DynamicLinks.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk">
+      <UniqueIdentifier>{1399C9D2-7E6E-4D00-9FEC-EA831C52782E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk\FirebaseConfig.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk\FirebaseErrors.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk\FirebaseFutureDelegates.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk\FirebaseVariant.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore">
+      <UniqueIdentifier>{0F956612-22CB-45AB-9B6C-33981E30113B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\CollectionReference.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\DocumentReference.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\DocumentSnapshot.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\FieldPath.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\FieldValue.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\Firestore.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\Query.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions">
+      <UniqueIdentifier>{4D038CBF-B570-49B7-B44F-EB4D7E77990F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions\CallableReference.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions\FunctionsLibrary.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Messaging">
+      <UniqueIdentifier>{35CE4230-D36E-4814-924E-A7A9895CC69A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Messaging\MessagingLibrary.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Messaging</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\RemoteConfig">
+      <UniqueIdentifier>{F7F712F4-81B8-402B-B2CC-A6F16A7A828A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\RemoteConfig\RemoteConfig.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\RemoteConfig</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage">
+      <UniqueIdentifier>{76E2B109-5AA6-4B2C-BDF9-F1E40298DD79}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage\Storage.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage\StorageReference.h">
+      <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\FirebaseFeatures\FirebaseFeatures.uplugin">
+      <Filter>Plugins\FirebaseFeatures</Filter>
+    </None>
+    <Filter Include="Plugins\FirebaseFeatures\Resources">
+      <UniqueIdentifier>{ADA5DE02-2F89-46A0-B9BE-52F50C017386}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FirebaseFeatures\Resources\Icon128.png">
+      <Filter>Plugins\FirebaseFeatures\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VRMBAPlugin">
+      <UniqueIdentifier>{E4592BF2-F55B-4777-9331-A8C331B1C90C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRMBAPlugin\VRMBAPlugin.uplugin">
+      <Filter>Plugins\VRMBAPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VRMBAPlugin\Config">
+      <UniqueIdentifier>{DB2675DD-DABF-41C0-A8C8-87684FD096DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRMBAPlugin\Config\FilterPlugin.ini">
+      <Filter>Plugins\VRMBAPlugin\Config</Filter>
+    </None>
+    <Filter Include="Plugins\VRMBAPlugin\Resources">
+      <UniqueIdentifier>{637F7086-1F62-428D-95A9-98EF26FAF9BE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRMBAPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VRMBAPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VRMBAPlugin\Source">
+      <UniqueIdentifier>{141C1C01-7358-4520-ADCC-92FB10064E24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin">
+      <UniqueIdentifier>{5CC6E4BD-21B8-4F70-9F4A-9A0ED47F6A18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\VRMBAPlugin.Build.cs">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private">
+      <UniqueIdentifier>{21957EE4-A098-4E88-A170-6C67F38476F2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private\VRMBABlueprintFunctionLibrary.cpp">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private\VRMBAPlugin.cpp">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public">
+      <UniqueIdentifier>{43F71EC5-293D-4369-AD12-A622F79D5844}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public\GoogleSession.cpp">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public\GoogleSession.h">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public\VRMBABlueprintFunctionLibrary.h">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public\VRMBAPlugin.h">
+      <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\VRMBA">
+      <UniqueIdentifier>{A63CF070-BA7C-43AF-999A-E95F254DAED1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRMBA\VRMBA.Build.cs">
+      <Filter>Source\VRMBA</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VRMBA\VRMBA.cpp">
+      <Filter>Source\VRMBA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRMBA\VRMBA.h">
+      <Filter>Source\VRMBA</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRMBA\VRMBAGameModeBase.cpp">
+      <Filter>Source\VRMBA</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRMBA\VRMBAGameModeBase.h">
+      <Filter>Source\VRMBA</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,105 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FirebaseFeatures.cpp.obj": [
+			"AdMobHelper.cpp.obj",
+			"AdMobLibrary.cpp.obj",
+			"AdMobNodes.cpp.obj",
+			"BannerView.cpp.obj",
+			"InterstitialAd.cpp.obj",
+			"RewardedVideo.cpp.obj",
+			"FirebaseAnalyticsLibrary.cpp.obj",
+			"FirebaseAnalyticsNodes.cpp.obj",
+			"FirebaseAnalyticsProvider.cpp.obj",
+			"Auth.cpp.obj",
+			"AuthHelper.cpp.obj",
+			"AuthNodes.cpp.obj",
+			"Credential.cpp.obj",
+			"CredentialNodes.cpp.obj",
+			"User.cpp.obj",
+			"UserNodes.cpp.obj",
+			"Database.cpp.obj",
+			"DatabaseNodes.cpp.obj",
+			"DatabaseReference.cpp.obj",
+			"DynamicLinks.cpp.obj",
+			"FirebaseDynamicLinksNodes.cpp.obj",
+			"FirebaseFeatures.cpp.obj",
+			"FirebaseConfig.cpp.obj",
+			"FirebaseVariant.cpp.obj",
+			"CollectionReference.cpp.obj",
+			"DocumentReference.cpp.obj",
+			"DocumentSnapshot.cpp.obj",
+			"FieldPath.cpp.obj",
+			"FieldValue.cpp.obj",
+			"Firestore.cpp.obj",
+			"FirestoreNodes.cpp.obj",
+			"Query.cpp.obj",
+			"CallableReference.cpp.obj",
+			"FunctionsLibrary.cpp.obj",
+			"FunctionsNodes.cpp.obj",
+			"MessagingLibrary.cpp.obj",
+			"MessagingNodes.cpp.obj",
+			"RemoteConfig.cpp.obj",
+			"RemoteConfigNodes.cpp.obj",
+			"Storage.cpp.obj",
+			"StorageNodes.cpp.obj",
+			"StorageReference.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.1_of_7.cpp.obj": [
+			"AdMobLibrary.gen.cpp.obj",
+			"AdMobNodes.gen.cpp.obj",
+			"AdMobTypes.gen.cpp.obj",
+			"Auth.gen.cpp.obj",
+			"AuthNodes.gen.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.2_of_7.cpp.obj": [
+			"BannerView.gen.cpp.obj",
+			"CallableReference.gen.cpp.obj",
+			"CollectionReference.gen.cpp.obj",
+			"Credential.gen.cpp.obj",
+			"CredentialNodes.gen.cpp.obj",
+			"Database.gen.cpp.obj",
+			"DatabaseNodes.gen.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.3_of_7.cpp.obj": [
+			"DatabaseReference.gen.cpp.obj",
+			"DocumentReference.gen.cpp.obj",
+			"DocumentSnapshot.gen.cpp.obj",
+			"DynamicLinks.gen.cpp.obj",
+			"FieldPath.gen.cpp.obj",
+			"FieldValue.gen.cpp.obj",
+			"FirebaseAnalyticsLibrary.gen.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.4_of_7.cpp.obj": [
+			"FirebaseAnalyticsNodes.gen.cpp.obj",
+			"FirebaseConfig.gen.cpp.obj",
+			"FirebaseDynamicLinksNodes.gen.cpp.obj",
+			"FirebaseErrors.gen.cpp.obj",
+			"FirebaseFeatures.gen.cpp.obj",
+			"FirebaseFeatures.init.gen.cpp.obj",
+			"FirebaseVariant.gen.cpp.obj",
+			"Firestore.gen.cpp.obj",
+			"FirestoreNodes.gen.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.5_of_7.cpp.obj": [
+			"FunctionsLibrary.gen.cpp.obj",
+			"FunctionsNodes.gen.cpp.obj",
+			"InterstitialAd.gen.cpp.obj",
+			"MessagingLibrary.gen.cpp.obj",
+			"MessagingNodes.gen.cpp.obj",
+			"Query.gen.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.6_of_7.cpp.obj": [
+			"RemoteConfig.gen.cpp.obj",
+			"RemoteConfigNodes.gen.cpp.obj",
+			"RewardedVideo.gen.cpp.obj",
+			"Storage.gen.cpp.obj",
+			"StorageNodes.gen.cpp.obj"
+		],
+		"Module.FirebaseFeatures.gen.7_of_7.cpp.obj": [
+			"StorageReference.gen.cpp.obj",
+			"User.gen.cpp.obj",
+			"UserNodes.gen.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,51 @@
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Development\FirebaseFeatures\Definitions.FirebaseFeatures.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseAnalyticsNodes.gen.cpp
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Private/Analytics/FirebaseAnalyticsNodes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/BlueprintAsyncActionBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\BlueprintAsyncActionBase.generated.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FirebaseAnalyticsNodes.generated.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseConfig.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Public/FirebaseSdk/FirebaseConfig.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FirebaseConfig.generated.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseDynamicLinksNodes.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Private/DynamicLinks/FirebaseDynamicLinksNodes.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks/DynamicLinks.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\DynamicLinks.generated.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FirebaseDynamicLinksNodes.generated.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseErrors.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Public/FirebaseSdk/FirebaseErrors.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FirebaseErrors.generated.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseFeatures.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Public/FirebaseFeatures.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces/IAnalyticsProviderModule.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Analytics\Analytics\Public\AnalyticsProviderConfigurationDelegate.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseFeatures.init.gen.cpp
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirebaseVariant.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Public/FirebaseSdk/FirebaseVariant.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/variant.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xtree
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\string
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/internal/common.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FirebaseVariant.generated.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/Firestore.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Public/Firestore/Firestore.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore/DocumentSnapshot.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/firestore/document_snapshot.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/firestore/map_field_value.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\unordered_map
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/firestore/snapshot_metadata.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore/FieldValue.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/firestore/field_value.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/internal/type_traits.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FieldValue.generated.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore/FieldPath.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\ThirdParty\firebase_cpp_sdk\include\firebase/firestore/field_path.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FieldPath.generated.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\DocumentSnapshot.generated.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\Firestore.generated.h
+C:/Users/Ibrahim Baig/Documents/Unreal Projects/VRMBA/Plugins/FirebaseFeatures/Intermediate/Build/Win64/UE4/Inc/FirebaseFeatures/FirestoreNodes.gen.cpp
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Source\FirebaseFeatures/Private/Firestore/FirestoreNodes.h
+C:\Users\Ibrahim Baig\Documents\Unreal Projects\VRMBA\Plugins\FirebaseFeatures\Intermediate\Build\Win64\UE4\Inc\FirebaseFeatures\FirestoreNodes.generated.h

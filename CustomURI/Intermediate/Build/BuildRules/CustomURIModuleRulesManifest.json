@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Ibrahim Baig\\Documents\\GitHub\\CustomURI\\CustomURI\\Source\\CustomURI\\CustomURI.Build.cs",
+		"C:\\Users\\Ibrahim Baig\\Documents\\GitHub\\CustomURI\\CustomURI\\Plugins\\TestPlugin\\Source\\TestPlugin\\TestPlugin.Build.cs",
+		"C:\\Users\\Ibrahim Baig\\Documents\\GitHub\\CustomURI\\CustomURI\\Source\\CustomURI.Target.cs",
+		"C:\\Users\\Ibrahim Baig\\Documents\\GitHub\\CustomURI\\CustomURI\\Source\\CustomURIEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}
