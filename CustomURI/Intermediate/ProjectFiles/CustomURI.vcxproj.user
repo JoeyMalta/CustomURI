@@ -17,9 +17,8 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
-    <LocalDebuggerCommandArguments>"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\CustomURI.uproject" -skipcompile</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"$(SolutionDir)CustomURI.uproject" -skipcompile</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <RemoteDebuggerCommandArguments>"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\CustomURI.uproject" -skipcompile</RemoteDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>

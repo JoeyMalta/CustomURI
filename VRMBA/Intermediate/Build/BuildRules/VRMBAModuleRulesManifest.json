@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\GitKitchenVR\\CustomURI\\VRMBA\\Source\\VRMBA\\VRMBA.Build.cs",
+		"D:\\GitKitchenVR\\CustomURI\\VRMBA\\Plugins\\FirebaseFeatures\\Source\\FirebaseFeatures\\FirebaseFeatures.Build.cs",
+		"D:\\GitKitchenVR\\CustomURI\\VRMBA\\Plugins\\VRMBAPlugin\\Source\\VRMBAPlugin\\VRMBAPlugin.Build.cs",
+		"D:\\GitKitchenVR\\CustomURI\\VRMBA\\Source\\VRMBA.Target.cs",
+		"D:\\GitKitchenVR\\CustomURI\\VRMBA\\Source\\VRMBAEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

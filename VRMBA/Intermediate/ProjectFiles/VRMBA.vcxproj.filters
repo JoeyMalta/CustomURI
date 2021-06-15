@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRMBA.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A8501057-6199-43CD-AC07-033CA7E1E424}</UniqueIdentifier>
+      <UniqueIdentifier>{37911EFB-9D02-4B97-A337-3973241344E0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRMBA.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{188EFCE8-79C4-4B3B-AC01-054992A4CB4A}</UniqueIdentifier>
+      <UniqueIdentifier>{7EC79ABE-CFCE-4D07-9569-BC33FABA9FC3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,16 +24,16 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{2E5CCE98-7340-4B64-AD4D-B8B74546765D}</UniqueIdentifier>
+      <UniqueIdentifier>{B45F3A4A-1245-4153-8990-E0580E4D54D2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FirebaseFeatures">
-      <UniqueIdentifier>{354F478E-85BA-46C3-954A-FD40A6711EB7}</UniqueIdentifier>
+      <UniqueIdentifier>{7F3098AD-882F-4B38-999A-56F4B71B4370}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FirebaseFeatures\Source">
-      <UniqueIdentifier>{5936AF5E-DD88-4607-8233-7E260631F989}</UniqueIdentifier>
+      <UniqueIdentifier>{FFF6DAAB-0A26-41C3-9EF6-E6AC6AC72CEA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures">
-      <UniqueIdentifier>{F7E6DA87-E3EA-41DA-B0B8-8B4D77AD31F8}</UniqueIdentifier>
+      <UniqueIdentifier>{84AF4606-74E9-4463-B8E8-995C878ED8CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\FirebaseFeatures.Build.cs">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures</Filter>
@@ -45,13 +45,13 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures</Filter>
     </None>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private">
-      <UniqueIdentifier>{8A35BCC6-54B2-4749-90CA-712380D999CD}</UniqueIdentifier>
+      <UniqueIdentifier>{7112777C-0C51-4880-9A77-38DB7CF55251}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseFeatures.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob">
-      <UniqueIdentifier>{63F09176-F264-4554-812A-B6D202A45C46}</UniqueIdentifier>
+      <UniqueIdentifier>{428490B8-8C6A-45D6-A48C-51C2C411B91A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob\AdMobHelper.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
@@ -78,7 +78,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\AdMob</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics">
-      <UniqueIdentifier>{DA7A5BE5-AE96-4251-AC96-837187616651}</UniqueIdentifier>
+      <UniqueIdentifier>{13022B86-9CEE-4999-A652-FD60F6B2CAC0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics\FirebaseAnalyticsLibrary.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics</Filter>
@@ -93,7 +93,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Analytics</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth">
-      <UniqueIdentifier>{902DAB7A-B17C-4AAE-90CD-B36213F39C2C}</UniqueIdentifier>
+      <UniqueIdentifier>{D40315DF-D6CE-417A-B670-D21E91A29715}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth\Auth.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
@@ -129,7 +129,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Auth</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database">
-      <UniqueIdentifier>{BEC64934-D11A-496C-A201-1B2151D13945}</UniqueIdentifier>
+      <UniqueIdentifier>{2CEDA317-8240-4599-802B-9790E970FAD9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database\Database.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database</Filter>
@@ -144,7 +144,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Database</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks">
-      <UniqueIdentifier>{D26A7C70-2C89-4F2D-B7CA-15DDFC339141}</UniqueIdentifier>
+      <UniqueIdentifier>{6B711BA2-991C-4FFD-94EC-759FF25C8BFA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks\DynamicLinks.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks</Filter>
@@ -156,7 +156,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\DynamicLinks</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk">
-      <UniqueIdentifier>{1BF629E6-B35F-45D1-B661-644965E45471}</UniqueIdentifier>
+      <UniqueIdentifier>{C0B7F8BC-D686-4E9C-8FD7-0DE7B7DC89BA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk\FirebaseConfig.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk</Filter>
@@ -165,7 +165,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\FirebaseSdk</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore">
-      <UniqueIdentifier>{BB8118AB-5AC5-4326-8E62-0C7A41103AB7}</UniqueIdentifier>
+      <UniqueIdentifier>{6BC74A7E-F31F-4DC6-86FF-A2DA05115ABA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore\CollectionReference.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
@@ -195,7 +195,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Firestore</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions">
-      <UniqueIdentifier>{C9AA9F66-CC86-46AA-A226-0911BF8473BA}</UniqueIdentifier>
+      <UniqueIdentifier>{7BCC60B2-8D63-4925-B069-EF669E57ECBB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions\CallableReference.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions</Filter>
@@ -210,7 +210,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Functions</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging">
-      <UniqueIdentifier>{9C0CF21D-8AA8-4EC6-814E-3409E837AC55}</UniqueIdentifier>
+      <UniqueIdentifier>{D81EFFA7-E12A-4B0E-A6FB-0C44B3E15FD7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging\MessagingLibrary.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging</Filter>
@@ -222,7 +222,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Messaging</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig">
-      <UniqueIdentifier>{D243F92F-B573-46D1-9F83-8EA8C6B8EAED}</UniqueIdentifier>
+      <UniqueIdentifier>{CC1BBB67-117E-4906-8C6D-797BF6BD0842}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig\RemoteConfig.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig</Filter>
@@ -234,7 +234,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\RemoteConfig</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage">
-      <UniqueIdentifier>{D51A915A-C11C-427D-88C4-439917D52C4C}</UniqueIdentifier>
+      <UniqueIdentifier>{4BED5464-E537-488E-BD18-C515342B68C4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage\Storage.cpp">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage</Filter>
@@ -249,13 +249,13 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Private\Storage</Filter>
     </ClCompile>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public">
-      <UniqueIdentifier>{9484584F-A89B-4AA8-8F4E-4F7CF34A6531}</UniqueIdentifier>
+      <UniqueIdentifier>{F90F9B1A-BDFA-44AF-87DD-FA120BD7BE82}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseFeatures.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob">
-      <UniqueIdentifier>{95271A7B-B9AE-4524-AD7F-C30A7B19140F}</UniqueIdentifier>
+      <UniqueIdentifier>{0D8D0563-899C-479F-88E3-D428AE62320F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob\AdMobLibrary.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
@@ -273,7 +273,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\AdMob</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics">
-      <UniqueIdentifier>{0F627513-68F4-4FDE-9CF0-52220FFE25FD}</UniqueIdentifier>
+      <UniqueIdentifier>{050A0AEB-DA48-4581-8F15-51722B8CED9E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics\FirebaseAnalyticsLibrary.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics</Filter>
@@ -282,7 +282,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Analytics</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth">
-      <UniqueIdentifier>{5188FBD7-4939-430D-9C12-8BF8E3444098}</UniqueIdentifier>
+      <UniqueIdentifier>{B19A166B-90CD-460A-B0EA-B25D2CA7DC2D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth\Auth.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth</Filter>
@@ -294,7 +294,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Auth</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database">
-      <UniqueIdentifier>{BC0F627D-015B-4A31-97ED-915536AF9E9F}</UniqueIdentifier>
+      <UniqueIdentifier>{8B57B57F-F007-40A4-80BA-333195B42D31}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database\Database.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database</Filter>
@@ -303,13 +303,13 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Database</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks">
-      <UniqueIdentifier>{78449CD6-9DA4-439B-B0DE-396ABDE50217}</UniqueIdentifier>
+      <UniqueIdentifier>{829D9009-8CED-40D0-84F8-D8EA0DA14EC9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks\DynamicLinks.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\DynamicLinks</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk">
-      <UniqueIdentifier>{1399C9D2-7E6E-4D00-9FEC-EA831C52782E}</UniqueIdentifier>
+      <UniqueIdentifier>{D1EF8851-B45D-4687-B3EF-31A74428EDB1}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk\FirebaseConfig.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk</Filter>
@@ -324,7 +324,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\FirebaseSdk</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore">
-      <UniqueIdentifier>{0F956612-22CB-45AB-9B6C-33981E30113B}</UniqueIdentifier>
+      <UniqueIdentifier>{08F5D9FF-7140-4780-9A51-6B0A1C1C3B67}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore\CollectionReference.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
@@ -348,7 +348,7 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Firestore</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions">
-      <UniqueIdentifier>{4D038CBF-B570-49B7-B44F-EB4D7E77990F}</UniqueIdentifier>
+      <UniqueIdentifier>{F58287D1-FFAF-4230-9E52-F63588085001}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions\CallableReference.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions</Filter>
@@ -357,19 +357,19 @@
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Functions</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Messaging">
-      <UniqueIdentifier>{35CE4230-D36E-4814-924E-A7A9895CC69A}</UniqueIdentifier>
+      <UniqueIdentifier>{7EE0149B-5BBE-48B9-B9C9-9F4D25EDCE9E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Messaging\MessagingLibrary.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Messaging</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\RemoteConfig">
-      <UniqueIdentifier>{F7F712F4-81B8-402B-B2CC-A6F16A7A828A}</UniqueIdentifier>
+      <UniqueIdentifier>{A47EA226-FAF1-4ADC-82F6-7267658A8C04}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\RemoteConfig\RemoteConfig.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\RemoteConfig</Filter>
     </ClInclude>
     <Filter Include="Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage">
-      <UniqueIdentifier>{76E2B109-5AA6-4B2C-BDF9-F1E40298DD79}</UniqueIdentifier>
+      <UniqueIdentifier>{61D6CF18-0BE5-4424-B20F-7CE0B036B5B2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage\Storage.h">
       <Filter>Plugins\FirebaseFeatures\Source\FirebaseFeatures\Public\Storage</Filter>
@@ -381,40 +381,40 @@
       <Filter>Plugins\FirebaseFeatures</Filter>
     </None>
     <Filter Include="Plugins\FirebaseFeatures\Resources">
-      <UniqueIdentifier>{ADA5DE02-2F89-46A0-B9BE-52F50C017386}</UniqueIdentifier>
+      <UniqueIdentifier>{E216B230-1900-40CA-A824-F10647D2AF1F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FirebaseFeatures\Resources\Icon128.png">
       <Filter>Plugins\FirebaseFeatures\Resources</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin">
-      <UniqueIdentifier>{E4592BF2-F55B-4777-9331-A8C331B1C90C}</UniqueIdentifier>
+      <UniqueIdentifier>{90B22513-C0BF-4412-9521-577435808CB8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\VRMBAPlugin.uplugin">
       <Filter>Plugins\VRMBAPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Config">
-      <UniqueIdentifier>{DB2675DD-DABF-41C0-A8C8-87684FD096DD}</UniqueIdentifier>
+      <UniqueIdentifier>{8A8088CF-EFFF-4561-AA77-A6ED49F2D1E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\Config\FilterPlugin.ini">
       <Filter>Plugins\VRMBAPlugin\Config</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Resources">
-      <UniqueIdentifier>{637F7086-1F62-428D-95A9-98EF26FAF9BE}</UniqueIdentifier>
+      <UniqueIdentifier>{A6E83254-0C60-45E2-92C2-8E7F23EC1E8F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\Resources\Icon128.png">
       <Filter>Plugins\VRMBAPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Source">
-      <UniqueIdentifier>{141C1C01-7358-4520-ADCC-92FB10064E24}</UniqueIdentifier>
+      <UniqueIdentifier>{0A80A571-6E88-4F8A-A3EF-628ED361651E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin">
-      <UniqueIdentifier>{5CC6E4BD-21B8-4F70-9F4A-9A0ED47F6A18}</UniqueIdentifier>
+      <UniqueIdentifier>{EE6BE4E2-A3E9-4861-91B3-4A664E91BD31}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\VRMBAPlugin.Build.cs">
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private">
-      <UniqueIdentifier>{21957EE4-A098-4E88-A170-6C67F38476F2}</UniqueIdentifier>
+      <UniqueIdentifier>{7017BD79-0954-47E6-BF3D-3A4CFB5D196A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private\VRMBABlueprintFunctionLibrary.cpp">
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private</Filter>
@@ -423,7 +423,7 @@
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public">
-      <UniqueIdentifier>{43F71EC5-293D-4369-AD12-A622F79D5844}</UniqueIdentifier>
+      <UniqueIdentifier>{A993848B-678F-4CC6-A356-F7E77AAA30AC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public\GoogleSession.cpp">
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
@@ -438,7 +438,7 @@
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Source\VRMBA">
-      <UniqueIdentifier>{A63CF070-BA7C-43AF-999A-E95F254DAED1}</UniqueIdentifier>
+      <UniqueIdentifier>{B672688C-1AB7-4C79-B17B-939DA8325554}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRMBA\VRMBA.Build.cs">
       <Filter>Source\VRMBA</Filter>

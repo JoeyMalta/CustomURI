@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VRMBAPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Development\VRMBAPlugin\Module.VRMBAPlugin.cpp.obj"
+"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Development\VRMBAPlugin\Module.VRMBAPlugin.gen.cpp.obj"
+"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Development\VRMBAPlugin\Default.rc2.res"
+/OUT:"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Development\VRMBAPlugin\UE4Editor-VRMBAPlugin.lib"
+/INCLUDE:IMPLEMENT_MODULE_VRMBAPlugin

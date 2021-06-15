@@ -1,3 +1,17 @@
-﻿  Cleaning CustomURIEditor and UnrealHeaderTool binaries...
-UnrealBuildTool : error : Unable to delete C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Binaries\Win64\UE4Editor-TestPlugin.dll (Unable to delete 'C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Binaries\Win64\UE4Editor-TestPlugin.dll': Access to the path 'C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Binaries\Win64\UE4Editor-TestPlugin.dll' is denied.)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(41,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Clean.bat" CustomURIEditor Win64 Development -Project="C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\CustomURI.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GitKitchenVR\CustomURI).
+  Creating makefile for CustomURIEditor (.uproject file is newer)
+  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin
+  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk
+  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk\build/native/include
+  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk\build/native/x64/lib
+  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk\build/native/x64/bin
+  Parsing headers for CustomURIEditor
+    Running UnrealHeaderTool "D:\GitKitchenVR\CustomURI\CustomURI\CustomURI.uproject" "D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\CustomURIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\joeym\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for CustomURIEditor in 49,5348373 seconds
+  Building CustomURIEditor...
+  Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 12 actions with 8 processes...
+    [1/12] Default.rc2
+    [2/12] Default.rc2
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB4181: The "Exec" task returned false but did not log an error.

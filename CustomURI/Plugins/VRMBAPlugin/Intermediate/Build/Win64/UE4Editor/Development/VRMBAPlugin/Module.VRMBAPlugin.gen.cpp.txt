@@ -1,0 +1,14 @@
+D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Development\VRMBAPlugin\Definitions.VRMBAPlugin.h
+D:/GitKitchenVR/CustomURI/CustomURI/Plugins/VRMBAPlugin/Intermediate/Build/Win64/UE4Editor/Inc/VRMBAPlugin/GoogleSession.gen.cpp
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source\VRMBAPlugin/Public/GoogleSession.h
+D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VRMBAPlugin\GoogleSession.generated.h
+D:/GitKitchenVR/CustomURI/CustomURI/Plugins/VRMBAPlugin/Intermediate/Build/Win64/UE4Editor/Inc/VRMBAPlugin/VRMBABlueprintFunctionLibrary.gen.cpp
+D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source\VRMBAPlugin/Public/VRMBABlueprintFunctionLibrary.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime/ApplicationCore/Public/Windows/WindowsPlatformApplicationMisc.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericPlatformApplicationMisc.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\EngineSettings\Classes\GeneralProjectSettings.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings\GeneralProjectSettings.generated.h
+D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VRMBAPlugin\VRMBABlueprintFunctionLibrary.generated.h
+D:/GitKitchenVR/CustomURI/CustomURI/Plugins/VRMBAPlugin/Intermediate/Build/Win64/UE4Editor/Inc/VRMBAPlugin/VRMBAPlugin.init.gen.cpp

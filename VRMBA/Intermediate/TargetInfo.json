@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "VRMBA",
-			"Path": "C:\\Users\\Ibrahim Baig\\Documents\\Unreal Projects\\VRMBA\\Source\\VRMBA.Target.cs",
+			"Path": "D:\\GitKitchenVR\\CustomURI\\VRMBA\\Source\\VRMBA.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "VRMBAEditor",
-			"Path": "C:\\Users\\Ibrahim Baig\\Documents\\Unreal Projects\\VRMBA\\Source\\VRMBAEditor.Target.cs",
+			"Path": "D:\\GitKitchenVR\\CustomURI\\VRMBA\\Source\\VRMBAEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
