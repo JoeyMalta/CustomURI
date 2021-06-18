@@ -1,26 +1,4 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GitKitchenVR\CustomURI).
-  Creating makefile for CustomURIEditor (no existing makefile)
-  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin
-  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk
-  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk\build/native/include
-  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk\build/native/x64/lib
-  D:\GitKitchenVR\CustomURI\CustomURI\Plugins\VRMBAPlugin\Source/ThirdParty/cpprestsdk\build/native/x64/bin
-  Building CustomURIEditor...
-  Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 10 actions with 8 processes...
-    [1/10] Module.AdvancedSteamSessions.gen.cpp
-    [2/10] Module.AdvancedSteamSessions.cpp
-    [3/10] Module.AdvancedSessions.gen.1_of_2.cpp
-    [4/10] Module.AdvancedSessions.gen.2_of_2.cpp
-    [5/10] Module.AdvancedSessions.cpp
-    [6/10] UE4Editor-AdvancedSteamSessions.lib
-       Creating library D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions.lib and object D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions.exp
-    [7/10] UE4Editor-AdvancedSessions.lib
-       Creating library D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions.lib and object D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions.exp
-    [8/10] UE4Editor-AdvancedSteamSessions.dll
-       Creating library D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions.suppressed.lib and object D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions.suppressed.exp
-    [9/10] UE4Editor-AdvancedSessions.dll
-       Creating library D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions.suppressed.lib and object D:\GitKitchenVR\CustomURI\CustomURI\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions.suppressed.exp
-    [10/10] CustomURIEditor.target
-  Total time in Parallel executor: 12,65 seconds
-  Total execution time: 19,59 seconds
+﻿  Cleaning CustomURIEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : The platform name Quail is not a valid platform name. Valid names are (Win32,Win64,HoloLens,Mac,XboxOne,PS4,IOS,Android,HTML5,Linux,LinuxAArch64,AllDesktop,TVOS,Switch,Lumin,XXX)
+                          while parsing module descriptor 'YangConfigSystemPlugin'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(40,5): error MSB3073: The command ""D:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Clean.bat" CustomURIEditor Win64 Development -Project="D:\GitKitchenVR\CustomURI\CustomURI\CustomURI.uproject" -WaitMutex -FromMsBuild" exited with code -1.

@@ -1,0 +1,51 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.10.31402.337, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037 (Version=14.29.30037)
+UnrealBuildTool.Main: ERROR: The platform name Quail is not a valid platform name. Valid names are (Win32,Win64,HoloLens,Mac,XboxOne,PS4,IOS,Android,HTML5,Linux,LinuxAArch64,AllDesktop,TVOS,Switch,Lumin,XXX)
+UnrealBuildTool.Main:        while parsing module descriptor 'YangConfigSystemPlugin'
+UnrealBuildTool.Main: BuildException: The platform name Quail is not a valid platform name. Valid names are (Win32,Win64,HoloLens,Mac,XboxOne,PS4,IOS,Android,HTML5,Linux,LinuxAArch64,AllDesktop,TVOS,Switch,Lumin,XXX)
+UnrealBuildTool.Main:    bij UnrealBuildTool.UnrealTargetPlatform.Parse(String Name) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Configuration\UEBuildTarget.cs:regel 163
+UnrealBuildTool.Main:    bij System.Array.ConvertAll[TInput,TOutput](TInput[] array, Converter`2 converter)
+UnrealBuildTool.Main:    bij UnrealBuildTool.ModuleDescriptor.FromJsonObject(JsonObject InObject) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\ModuleDescriptor.cs:regel 258
+UnrealBuildTool.Main:    bij System.Array.ConvertAll[TInput,TOutput](TInput[] array, Converter`2 converter)
+UnrealBuildTool.Main:    bij UnrealBuildTool.PluginDescriptor..ctor(JsonObject RawObject) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\PluginDescriptor.cs:regel 268
+UnrealBuildTool.Main:    bij UnrealBuildTool.PluginDescriptor.FromFile(FileReference FileName) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\PluginDescriptor.cs:regel 319
+UnrealBuildTool.Main:    bij UnrealBuildTool.PluginInfo..ctor(FileReference InFile, PluginType InType) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\Plugins.cs:regel 105
+UnrealBuildTool.Main:    bij UnrealBuildTool.Plugins.ReadPluginsFromDirectory(DirectoryReference RootDirectory, String Subdirectory, PluginType Type) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\Plugins.cs:regel 521
+UnrealBuildTool.Main:    bij UnrealBuildTool.Plugins.ReadProjectPlugins(DirectoryReference ProjectDirectory) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\Plugins.cs:regel 288
+UnrealBuildTool.Main:    bij UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:regel 572
+UnrealBuildTool.Main:    bij UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:regel 2288
+UnrealBuildTool.Main:    bij UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:regel 753
+UnrealBuildTool.Main:    bij UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:regel 198
+UnrealBuildTool.Main:    bij UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:regel 550   data: EpicGames.Context = ("while parsing module descriptor 'YangConfigSystemPlugin'")
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.032) <unknown>
+Timeline.Print: [ 0.032](+0.073) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.105](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.105](+0.054) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.106          [ 0.000](+0.029) Initializing InstalledPlatformInfo
+Timeline.Print:   0.135          [ 0.029](+0.000) Querying types
+Timeline.Print:   0.136          [ 0.031](+0.001) XXXPlatformFactory
+Timeline.Print:   0.138          [ 0.032](+0.000) MacPlatformFactory
+Timeline.Print:   0.138          [ 0.032](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.138          [ 0.032](+0.014) AndroidPlatformFactory
+Timeline.Print:   0.153          [ 0.047](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.153          [ 0.047](+0.003) IOSPlatformFactory
+Timeline.Print:   0.156          [ 0.050](+0.002) LinuxPlatformFactory
+Timeline.Print:   0.159          [ 0.053](+0.000) LuminPlatformFactory
+Timeline.Print:   0.159          [ 0.053](+0.000) WindowsPlatformFactory
+Timeline.Print: [ 0.160](+0.447) <unknown>
+Timeline.Print: [ 0.607](+0.001) Finding engine modules
+Timeline.Print: [ 0.609](+0.002) Finding plugin modules
+Timeline.Print: [ 0.612](+0.032) <unknown>
+Timeline.Print: [ 0.644](+0.000) Finding program modules
+Timeline.Print: [ 0.644](+0.000) Finding program targets
+Timeline.Print: [ 0.644](+0.033) <unknown>
+Timeline.Print: [ 0.678](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 0.680]
