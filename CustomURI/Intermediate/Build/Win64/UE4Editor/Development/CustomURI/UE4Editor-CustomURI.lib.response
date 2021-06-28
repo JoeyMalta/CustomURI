@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-CustomURI.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\CustomURI.cpp.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\MyClass.cpp.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\Default.rc2.res"
-/OUT:"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\UE4Editor-CustomURI.lib"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\CustomURI.cpp.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\MyClass.cpp.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\Default.rc2.res"
+/OUT:"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\UE4Editor-CustomURI.lib"
 /INCLUDE:IMPLEMENT_MODULE_CustomURI

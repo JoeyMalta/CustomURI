@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CustomURI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{457435BC-DCCF-4CBA-811D-07F6854C9A63}</UniqueIdentifier>
+      <UniqueIdentifier>{B4A2FCA7-BB8C-4429-BCEC-5B795E87DFCC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CustomURI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{44CA7E70-D462-48A7-9D84-4224DE4118A7}</UniqueIdentifier>
+      <UniqueIdentifier>{56D8C7F3-E462-47E8-AABA-DCE93B448B7A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,25 +24,25 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{1F906717-4DDE-4CB8-890C-EE2E959168B8}</UniqueIdentifier>
+      <UniqueIdentifier>{BD78A971-54BB-41A6-AF36-65C050D2EEC2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions">
-      <UniqueIdentifier>{512BED68-EAF5-43C7-8A0A-98C8D36B3AB4}</UniqueIdentifier>
+      <UniqueIdentifier>{855C6B62-83B1-4649-AED5-46B8879D248E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions">
-      <UniqueIdentifier>{C1C3F409-6FB8-4257-9560-090333364004}</UniqueIdentifier>
+      <UniqueIdentifier>{BA247DE0-9C57-4412-B2A3-F7DE72F3EF9D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source">
-      <UniqueIdentifier>{F266CD05-2086-48CF-B024-B8B283D28C37}</UniqueIdentifier>
+      <UniqueIdentifier>{64E88AAB-3446-4AB3-8024-1A2124EC5730}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions">
-      <UniqueIdentifier>{70247D00-4662-4671-B477-4F7992FA19FE}</UniqueIdentifier>
+      <UniqueIdentifier>{7D05A2C6-4BFE-4771-B56F-049522D240E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes">
-      <UniqueIdentifier>{AEF4791A-A66D-403E-9263-4C239CFA4B4D}</UniqueIdentifier>
+      <UniqueIdentifier>{CEFBB1FA-7EFA-49E8-9F1F-8B4298FD036E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
@@ -114,7 +114,7 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private">
-      <UniqueIdentifier>{8F4FDD1A-483B-4313-A4E9-C68A1E6EFA71}</UniqueIdentifier>
+      <UniqueIdentifier>{0BF7343A-2F00-42B2-9240-33480038626C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
@@ -180,64 +180,76 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Resources">
-      <UniqueIdentifier>{DB0132A6-9042-426F-A096-1986B068A9E6}</UniqueIdentifier>
+      <UniqueIdentifier>{8B54F72B-24FB-4EF1-837D-B4469EB9E7D1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSessions\AdvancedSessions\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions">
-      <UniqueIdentifier>{A40EB30A-9771-4A44-9E45-BA26263C2B5B}</UniqueIdentifier>
+      <UniqueIdentifier>{99D88809-C300-4186-A02C-3FF4CC3A406C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Resources">
-      <UniqueIdentifier>{197A4C22-A14F-4219-A323-FAC4477C2A3F}</UniqueIdentifier>
+      <UniqueIdentifier>{C808B6F6-8DEC-4FB7-A89D-D42EA04B2C97}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Resources\Icon128.png">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Resources</Filter>
     </None>
     <Filter Include="Plugins\TestPlugin">
-      <UniqueIdentifier>{DBD18825-11B4-47AB-9E5D-8369E8F7E112}</UniqueIdentifier>
+      <UniqueIdentifier>{6B5E9277-1C44-415D-8EE6-37209E2AF33E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestPlugin\TestPlugin.uplugin">
       <Filter>Plugins\TestPlugin</Filter>
     </None>
     <Filter Include="Plugins\TestPlugin\Resources">
-      <UniqueIdentifier>{3969A01B-728E-4CFC-9CEB-55B2A7B61ED7}</UniqueIdentifier>
+      <UniqueIdentifier>{C9F7B345-AF86-4243-B605-00938B351D9F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestPlugin\Resources\Icon128.png">
       <Filter>Plugins\TestPlugin\Resources</Filter>
     </None>
+    <Filter Include="Plugins\VictoryPlugin25">
+      <UniqueIdentifier>{7379463D-268F-4A0D-B97D-60CA1C0938AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin25\VictoryBPLibrary.uplugin">
+      <Filter>Plugins\VictoryPlugin25</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin25\Resources">
+      <UniqueIdentifier>{298FD064-7E3B-404B-AAB9-9E0EFB8601AA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin25\Resources\Icon128.png">
+      <Filter>Plugins\VictoryPlugin25\Resources</Filter>
+    </None>
     <Filter Include="Plugins\VRMBAPlugin">
-      <UniqueIdentifier>{F6B8231C-ACAC-4C56-8A9D-402EF4EFBCF2}</UniqueIdentifier>
+      <UniqueIdentifier>{C688E6CD-34C0-48B0-97EB-97672DC49BD2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\VRMBAPlugin.uplugin">
       <Filter>Plugins\VRMBAPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Config">
-      <UniqueIdentifier>{329ED928-113C-463A-842E-B06C53EEE92C}</UniqueIdentifier>
+      <UniqueIdentifier>{4FB089D6-19CF-40D7-8C9D-1D9F98DA8E5A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\Config\FilterPlugin.ini">
       <Filter>Plugins\VRMBAPlugin\Config</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Resources">
-      <UniqueIdentifier>{51996CFC-3D7D-4C45-8CA0-62BA7E390B47}</UniqueIdentifier>
+      <UniqueIdentifier>{7886E5D3-1303-4056-B200-3A65B5D7829E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\Resources\Icon128.png">
       <Filter>Plugins\VRMBAPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source">
-      <UniqueIdentifier>{11B8A8C3-7700-45A5-8EC2-5B738629D120}</UniqueIdentifier>
+      <UniqueIdentifier>{B630CE78-9879-4662-8BF0-79A80B56B706}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions">
-      <UniqueIdentifier>{D0B8A8B3-36C1-4676-9871-3595DF792839}</UniqueIdentifier>
+      <UniqueIdentifier>{398F8D4C-FF5D-4412-BE98-A7D50B890322}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
     </None>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
-      <UniqueIdentifier>{9A5BA649-C9AC-42D3-ACA9-3E393AE08507}</UniqueIdentifier>
+      <UniqueIdentifier>{D9B67F94-B092-4754-851D-912B6F352A7F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
@@ -255,7 +267,7 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
-      <UniqueIdentifier>{A9AFF243-BC71-4816-975B-18019F063BD5}</UniqueIdentifier>
+      <UniqueIdentifier>{31773121-7D48-444F-8F27-5A7016573F87}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
@@ -273,37 +285,100 @@
       <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\TestPlugin\Source">
-      <UniqueIdentifier>{D0FC0E6D-3FB7-4801-92AD-52D555E7E94B}</UniqueIdentifier>
+      <UniqueIdentifier>{247AC298-6241-4BD4-94DC-03EF3D05FD40}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\TestPlugin\Source\TestPlugin">
-      <UniqueIdentifier>{95F6B5FC-0A1A-40AF-830F-2931DF564A66}</UniqueIdentifier>
+      <UniqueIdentifier>{BFA5BED7-9845-4D8B-968C-C1A2B8213487}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\TestPlugin\Source\TestPlugin\TestPlugin.Build.cs">
       <Filter>Plugins\TestPlugin\Source\TestPlugin</Filter>
     </None>
     <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Private">
-      <UniqueIdentifier>{DE5C935E-371C-4416-A1F9-99C03C2CB5C6}</UniqueIdentifier>
+      <UniqueIdentifier>{66541519-588D-459E-870B-D459D83E87F8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Private\TestPlugin.cpp">
       <Filter>Plugins\TestPlugin\Source\TestPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Public">
-      <UniqueIdentifier>{505EE01D-36D7-4AC0-ADE8-CA39A6DFC27D}</UniqueIdentifier>
+      <UniqueIdentifier>{7E4F4444-7FDA-4D74-89A1-D552DB6BF932}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h">
       <Filter>Plugins\TestPlugin\Source\TestPlugin\Public</Filter>
     </ClInclude>
+    <Filter Include="Plugins\VictoryPlugin25\Source">
+      <UniqueIdentifier>{DB8C769F-5F02-44F9-BF01-C79CC4F275F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VictoryPlugin25\Source\VictoryBPLibrary">
+      <UniqueIdentifier>{CB12E093-7182-4F51-A748-C4BC2067ECC8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\VictoryBPLibrary.Build.cs">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private">
+      <UniqueIdentifier>{7D9180D3-3A29-4F24-8C29-1CE99D904A63}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private\TKMathFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private\VictoryBPFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private\VictoryBPFunctionLibrary_WinOS.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private\VictoryBPHTML.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private\VictoryBPLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private\VictoryBPLibraryPrivatePCH.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public">
+      <UniqueIdentifier>{03280CB0-0EC2-403A-AC4F-8C298B4CAA48}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\TKMathFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryBPFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryBPHTML.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryBPLibrary.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryISM.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryISM.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryPC.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryPC.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryTMapComp.cpp">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public\VictoryTMapComp.h">
+      <Filter>Plugins\VictoryPlugin25\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
     <Filter Include="Plugins\VRMBAPlugin\Source">
-      <UniqueIdentifier>{8D3B6A58-7754-4870-9A27-4A6A6CABFBE7}</UniqueIdentifier>
+      <UniqueIdentifier>{A8497D37-F80B-42C4-8277-490871056DD2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin">
-      <UniqueIdentifier>{023C407B-057E-4AAD-A2B3-23D0A3EC0B7B}</UniqueIdentifier>
+      <UniqueIdentifier>{E644993B-1ECF-4A8E-BF63-32897746E77B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\VRMBAPlugin.Build.cs">
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin</Filter>
     </None>
     <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private">
-      <UniqueIdentifier>{404ACD5B-4681-4161-919E-112C2685E2FA}</UniqueIdentifier>
+      <UniqueIdentifier>{5F5CDED3-EF89-4312-8153-87F3CC41AFD4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private\VRMBABlueprintFunctionLibrary.cpp">
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private</Filter>
@@ -312,7 +387,7 @@
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public">
-      <UniqueIdentifier>{DE058C59-CC33-4151-9935-9BD2A99A064C}</UniqueIdentifier>
+      <UniqueIdentifier>{F64EF369-5212-4015-BC4E-CE5BF5EE9A99}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public\GoogleSession.cpp">
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
@@ -327,7 +402,7 @@
       <Filter>Plugins\VRMBAPlugin\Source\VRMBAPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Source\CustomURI">
-      <UniqueIdentifier>{238BF98E-4CC6-4B20-8F8C-4FABB659AF09}</UniqueIdentifier>
+      <UniqueIdentifier>{69A4DC92-BD63-4F1B-93FC-71CB9CC7B342}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CustomURI\CustomURI.Build.cs">
       <Filter>Source\CustomURI</Filter>

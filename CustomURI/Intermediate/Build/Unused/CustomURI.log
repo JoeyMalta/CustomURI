@@ -1,4 +1,3 @@
-﻿  Cleaning CustomURIEditor and UnrealHeaderTool binaries...
-UnrealBuildTool : error : The platform name Quail is not a valid platform name. Valid names are (Win32,Win64,HoloLens,Mac,XboxOne,PS4,IOS,Android,HTML5,Linux,LinuxAArch64,AllDesktop,TVOS,Switch,Lumin,XXX)
-                          while parsing module descriptor 'YangConfigSystemPlugin'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(40,5): error MSB3073: The command ""D:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Clean.bat" CustomURIEditor Win64 Development -Project="D:\GitKitchenVR\CustomURI\CustomURI\CustomURI.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI).
+  Target is up to date
+  Total execution time: 1.03 seconds

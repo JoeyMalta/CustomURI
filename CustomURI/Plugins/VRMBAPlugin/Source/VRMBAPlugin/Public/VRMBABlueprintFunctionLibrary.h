@@ -22,11 +22,14 @@ class VRMBAPLUGIN_API UVRMBABlueprintFunctionLibrary : public UBlueprintFunction
 		UFUNCTION(BlueprintCallable, Category = "IsSingleInstance")
 		static void IsSingleInstance(bool IsEnabled = true);
 
-		UFUNCTION(BlueprintCallable, Category = "VRMBA| SetURIScheme")
-		static void SetURIScheme(FString protocolName, FString executablePath);
+		UFUNCTION(BlueprintCallable, Category = "VRMBA | SetURIScheme")
+		static void SetURIScheme(FString protocolName, FString executablePath, FString executableCommand);
 
-		UFUNCTION(BlueprintCallable, Category = "VRMBA| IS URIScheme set")
+		UFUNCTION(BlueprintCallable, Category = "VRMBA | IS URIScheme set")
 		static bool IsURISchemeSet(FString protocolName);
+		
+		UFUNCTION(BlueprintCallable, Category = "VRMBA | Delete URIScheme")
+		static bool DeleteURIScheme(FString protocolName);
 
 		UFUNCTION(BlueprintCallable, Category = "VRMBA | Get Executable")
 		static FString getExecutableName();

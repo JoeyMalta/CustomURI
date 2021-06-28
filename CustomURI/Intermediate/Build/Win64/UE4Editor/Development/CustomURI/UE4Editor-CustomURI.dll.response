@@ -1,5 +1,5 @@
 /MANIFEST:EMBED
-/MANIFESTINPUT:"D:\Program Files\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.25\Engine\Build\Windows\Resources\Default-Win64.manifest"
 /NOLOGO
 /DEBUG
 /errorReport:prompt
@@ -19,9 +19,9 @@
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
 /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\lib\um\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
 /NODEFAULTLIB:"LIBCPMT"
 /NODEFAULTLIB:"LIBCMTD"
@@ -33,10 +33,10 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\CustomURI.cpp.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\MyClass.cpp.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\Default.rc2.res"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\CustomURI.cpp.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\MyClass.cpp.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -61,12 +61,12 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-"D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
-/OUT:"D:\GitKitchenVR\CustomURI\CustomURI\Binaries\Win64\UE4Editor-CustomURI.dll"
-/IMPLIB:"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\UE4Editor-CustomURI.suppressed.lib"
-/PDB:"D:\GitKitchenVR\CustomURI\CustomURI\Binaries\Win64\UE4Editor-CustomURI.pdb"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+/OUT:"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Binaries\Win64\UE4Editor-CustomURI.dll"
+/IMPLIB:"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\UE4Editor-CustomURI.suppressed.lib"
+/PDB:"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Binaries\Win64\UE4Editor-CustomURI.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_CustomURI

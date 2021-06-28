@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Private
+/I "C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -231,8 +231,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Source
-/I D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Public
+/I "C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Source"
+/I "C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -257,17 +257,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Private\TestPlugin.cpp"
-/FI"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Definitions.TestPlugin.h"
-/Fo"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\TestPlugin.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Private\TestPlugin.cpp"
+/FI"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Definitions.TestPlugin.h"
+/Fo"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\TestPlugin.cpp.obj"
 /TP
 /GR-
 /W4

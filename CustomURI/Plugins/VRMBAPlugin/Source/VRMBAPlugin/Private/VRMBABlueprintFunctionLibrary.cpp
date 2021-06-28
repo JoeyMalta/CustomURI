@@ -49,10 +49,10 @@ void UVRMBABlueprintFunctionLibrary::IsSingleInstance(bool bIsEnabled)
 }
 
 
-void UVRMBABlueprintFunctionLibrary::SetURIScheme(FString protocolName, FString executablePath)
+void UVRMBABlueprintFunctionLibrary::SetURIScheme(FString protocolName, FString executablePath, FString executableCommand)
 {
 #if PLATFORM_WINDOWS
-	
+
 	//const TCHAR * l_path = FGenericPlatformProcess::ExecutablePath();
 	//FString lauchdir = FPaths::LaunchDir();
 	//FString gamedir = FPaths::GameDevelopersDir();
@@ -64,12 +64,14 @@ void UVRMBABlueprintFunctionLibrary::SetURIScheme(FString protocolName, FString 
 
 	std::wstring m_wszProtocolName(*protocolName);
 	std::wstring m_wszAppPath(*executablePath);
+	std::wstring m_wszAppCommand(*executableCommand);
 
 	DWORD				m_dwErrorCode;
 	std::wstring		m_wszErrorMsg;
 
 
 	WCHAR szValue[MAX_PATH] = { 0 };
+	WCHAR szPathValue[1064] = { 0 };
 	HKEY hKey = NULL;
 	HKEY hKeyDefaultIcon = NULL;
 	HKEY hKeyCommand = NULL;
@@ -104,8 +106,8 @@ void UVRMBABlueprintFunctionLibrary::SetURIScheme(FString protocolName, FString 
 
 					if ((m_dwErrorCode = RegCreateKeyW(hKey, URL_PROTOCOL_COMMAND, &hKeyCommand)) == ERROR_SUCCESS)
 					{
-						swprintf_s(szValue, MAX_PATH, L"\"%s\" \"%%1\"", m_wszAppPath.c_str());
-						m_dwErrorCode = RegSetValueExW(hKeyCommand, L"", 0, REG_SZ, (BYTE*)&szValue, wcslen(szValue) * 2 + 2);
+						swprintf_s(szPathValue, 1064, L"%s \"%%1\"", m_wszAppCommand.c_str());
+						m_dwErrorCode = RegSetValueExW(hKeyCommand, L"", 0, REG_SZ, (BYTE*)&szPathValue, wcslen(szPathValue) * 2 + 2);
 					}
 				}
 			}
@@ -118,7 +120,7 @@ void UVRMBABlueprintFunctionLibrary::SetURIScheme(FString protocolName, FString 
 			swprintf_s(szValue, MAX_PATH, L"%s Key is already present.", m_wszProtocolName.c_str());
 			m_wszErrorMsg = szValue;
 		}
-	} 	while (0);
+	} while (0);
 
 	if (m_dwErrorCode != ERROR_SUCCESS)
 	{
@@ -185,6 +187,108 @@ bool UVRMBABlueprintFunctionLibrary::IsURISchemeSet(FString protocolName)
 
 #endif
 }
+
+BOOL RegDelnodeRecurse(HKEY hKeyRoot, LPTSTR lpSubKey)
+{
+	LPTSTR lpEnd;
+	LONG lResult;
+	DWORD dwSize;
+	TCHAR szName[MAX_PATH];
+	HKEY hKey;
+	FILETIME ftWrite;
+
+	// First, see if we can delete the key without having
+	// to recurse.
+
+	lResult = RegDeleteKey(hKeyRoot, lpSubKey);
+
+	if (lResult == ERROR_SUCCESS)
+		return true;
+
+	lResult = RegOpenKeyEx(hKeyRoot, lpSubKey, 0, KEY_READ, &hKey);
+
+	if (lResult != ERROR_SUCCESS)
+	{
+		if (lResult == ERROR_FILE_NOT_FOUND) {
+			printf("Key not found.\n");
+			return true;
+		}
+		else {
+			printf("Error opening key.\n");
+			return true;
+		}
+	}
+
+	// Check for an ending slash and add one if it is missing.
+
+	lpEnd = lpSubKey + lstrlen(lpSubKey);
+
+	if (*(lpEnd - 1) != TEXT('\\'))
+	{
+		*lpEnd = TEXT('\\');
+		lpEnd++;
+		*lpEnd = TEXT('\0');
+	}
+
+	// Enumerate the keys
+
+	dwSize = MAX_PATH;
+	lResult = RegEnumKeyEx(hKey, 0, szName, &dwSize, NULL,
+		NULL, NULL, &ftWrite);
+
+	if (lResult == ERROR_SUCCESS)
+	{
+		do {
+
+			*lpEnd = TEXT('\0');
+			StringCchCat(lpSubKey, MAX_PATH * 2, szName);
+
+			if (!RegDelnodeRecurse(hKeyRoot, lpSubKey)) {
+				break;
+			}
+
+			dwSize = MAX_PATH;
+
+			lResult = RegEnumKeyEx(hKey, 0, szName, &dwSize, NULL,
+				NULL, NULL, &ftWrite);
+
+		} while (lResult == ERROR_SUCCESS);
+	}
+
+	lpEnd--;
+	*lpEnd = TEXT('\0');
+
+	RegCloseKey(hKey);
+
+	// Try again to delete the key.
+
+	lResult = RegDeleteKey(hKeyRoot, lpSubKey);
+
+	if (lResult == ERROR_SUCCESS)
+		return true;
+
+	return false;
+}
+
+BOOL RegDelnode(HKEY hKeyRoot, LPCTSTR lpSubKey)
+{
+	TCHAR szDelKey[MAX_PATH * 2];
+
+	StringCchCopy(szDelKey, MAX_PATH * 2, lpSubKey);
+	return RegDelnodeRecurse(hKeyRoot, szDelKey);
+
+}
+
+bool UVRMBABlueprintFunctionLibrary::DeleteURIScheme(FString protocolName)
+{
+#if PLATFORM_WINDOWS
+	std::wstring m_wszProtocolName(*protocolName);
+	return RegDelnode(HKEY_CLASSES_ROOT, m_wszProtocolName.c_str());
+#endif
+}
+
+
+
 
 FString UVRMBABlueprintFunctionLibrary::getExecutableName()
 {

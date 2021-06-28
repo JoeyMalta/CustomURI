@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-TestPlugin.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\TestPlugin.cpp.obj"
-"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Default.rc2.res"
-/OUT:"D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\UE4Editor-TestPlugin.lib"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\CustomURIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\TestPlugin.cpp.obj"
+"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Default.rc2.res"
+/OUT:"C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\UE4Editor-TestPlugin.lib"
 /INCLUDE:IMPLEMENT_MODULE_TestPlugin

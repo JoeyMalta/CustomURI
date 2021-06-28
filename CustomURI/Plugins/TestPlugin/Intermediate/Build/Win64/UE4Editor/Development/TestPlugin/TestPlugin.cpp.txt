@@ -1,2 +1,2 @@
-D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Definitions.TestPlugin.h
-D:\GitKitchenVR\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h
+C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Definitions.TestPlugin.h
+C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h

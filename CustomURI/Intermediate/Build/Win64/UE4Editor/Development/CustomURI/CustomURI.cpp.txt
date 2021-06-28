@@ -1,2 +1,2 @@
-D:\GitKitchenVR\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\Definitions.CustomURI.h
-D:\GitKitchenVR\CustomURI\CustomURI\Source\CustomURI\CustomURI.h
+C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Intermediate\Build\Win64\UE4Editor\Development\CustomURI\Definitions.CustomURI.h
+C:\Users\Ibrahim Baig\Documents\GitHub\CustomURI\CustomURI\Source\CustomURI\CustomURI.h
